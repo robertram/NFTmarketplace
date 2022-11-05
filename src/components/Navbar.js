@@ -92,20 +92,20 @@ function Navbar() {
         <ul className="flex items-end justify-between py-3 bg-transparent text-white pr-5">
           <li className="flex items-end ml-5 pb-2">
             <Link to="/">
-              <img
+              {/* <img
                 src={fullLogo}
                 alt=""
                 width={120}
                 height={120}
                 className="inline-block -mt-2"
-              />
+              /> */}
               <div className="inline-block font-bold text-xl ml-2">
-                NFT Marketplace
+                Events Tickets NFT Marketplace
               </div>
             </Link>
           </li>
-          <li className="w-2/6">
-            <ul className="lg:flex justify-between font-bold mr-10 text-lg">
+          <li className="w-1/2 xl:w-2/6">
+            <ul className="lg:flex justify-between font-bold mr-10 text-lg whitespace-nowrap">
               {location.pathname === "/" ? (
                 <li className="border-b-2 hover:pb-0 p-2">
                   <Link to="/">Marketplace</Link>
